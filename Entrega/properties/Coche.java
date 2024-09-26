@@ -1,6 +1,6 @@
 package properties;
-
-public class Coche {
+import java.io.Serializable;
+public class Coche implements Serializable{
     private String matricula;
     private double kilometraje;
     private double precio;
