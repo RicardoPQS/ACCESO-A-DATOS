@@ -1,0 +1,6 @@
+
+El uso de DataOutputStream es útil cuando solo necesitas guardar datos simples como números o texto. Te permite escribir y leer esos datos en un archivo binario de forma eficiente, controlando exactamente cómo se guardan. Es perfecto si trabajas con cosas básicas como listas de números.
+
+Por otro lado, ObjectOutputStream te deja guardar objetos enteros, es decir, estructuras más complejas como listas o incluso clases personalizadas de Java. Esto es más fácil porque no necesitas pensar en cómo guardar cada dato, ya que Java se encarga de todo. Sin embargo, los archivos son más grandes y tienes menos control sobre cómo se guardan los datos.
+
+Si trabajas con datos simples, DataOutputStream es mejor, pero si tienes objetos complicados, ObjectOutputStream es más facil.
