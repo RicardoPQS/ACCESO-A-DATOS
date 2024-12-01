@@ -1,0 +1,8 @@
+{"empleado": {
+  "id": 1,
+  "nombre": "Laura",
+  "titulo": "Desarrolladora Senior",
+  "activo": true,
+  "numeroEmpl": 1001,
+  "fechaAlta": "2024-10-15 11:41:59.249 UTC"
+}}

@@ -1,0 +1,5 @@
+Ambos códigos procesan datos XML, pero con enfoques distintos. El primero (Apartado1_3) usa una lista persistente (XmlArrayList), 
+ideal para manejar varios objetos Libro a la vez.
+
+El segundo (Apartado1_1) guarda y lee un solo objeto Libro, dando más control para casos más simples. 
+Así, cada enfoque es útil dependiendo de la cantidad de datos y de si se necesita manipular múltiples elementos o solo uno.

@@ -1,0 +1,25 @@
+<proveedor cif="150" empresa="mi empresa">
+  <identificador>1</identificador>
+  <nombre>Café Supremo</nombre>
+  <calle>Calle Principal 123</calle>
+  <ciudad>Ciudad Café</ciudad>
+  <pais>Cafetería</pais>
+  <cp>12345</cp>
+  <esNacional>true</esNacional>
+  <cafes>
+    <cafe>
+      <nombre>late</nombre>
+      <proveedorId>1</proveedorId>
+      <precio>500.0</precio>
+      <ventas>5</ventas>
+      <total>1500</total>
+    </cafe>
+    <cafe>
+      <nombre>manchado</nombre>
+      <proveedorId>1</proveedorId>
+      <precio>5020.0</precio>
+      <ventas>52</ventas>
+      <total>15200</total>
+    </cafe>
+  </cafes>
+</proveedor>

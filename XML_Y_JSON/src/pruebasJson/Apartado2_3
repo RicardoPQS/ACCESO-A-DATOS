@@ -1,0 +1,12 @@
+XStream con JettisonMappedXmlDriver:
+
+ - Requiere configuraciones adicionales, ya que está orientado a XML y usa un driver para JSON.
+ - La configuración inicial es más compleja y necesita el JettisonMappedXmlDriver para serializar en JSON.
+ - Poco intuitivo para JSON, y la conversión puede fallar con estructuras anidadas.
+
+
+GSON:
+
+ - Muy fácil de usar, sin configuraciones adicionales: sólo toJson y fromJson para serialización y deserialización.
+ - Diseñado específicamente para JSON, lo que lo hace más directo.
+ - Excelente manejo de estructuras complejas.

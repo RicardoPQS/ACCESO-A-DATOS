@@ -1,0 +1,8 @@
+<tema2.ejercicio4.Persona>
+  <nombre>Garcia</nombre>
+  <apellido>Pepe</apellido>
+  <telefono>
+    <codigo>34</codigo>
+    <numero>666666666</numero>
+  </telefono>
+</tema2.ejercicio4.Persona>

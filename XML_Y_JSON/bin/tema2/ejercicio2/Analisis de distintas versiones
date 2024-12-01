@@ -1,0 +1,4 @@
+La principal diferencia que se puede observar es que al realizar una versión utilizando
+PersistenceStrategy resulta más cómodo y más sencillo a la hora de implementar pocas
+líneas de código, mientras que con OutputStream e InputStream se requiere implementar
+dos métodos a parte de crearse un fichero donde guardar dicho objeto.

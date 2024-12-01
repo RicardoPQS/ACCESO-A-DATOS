@@ -1,0 +1,22 @@
+<tema2.ejercicio7.Aula>
+  <alumnos>
+    <tema2.ejercicio7.Alumno>
+      <nombre>pepe</nombre>
+      <apellidos>garcia</apellidos>
+      <anoNacimiento>1986</anoNacimiento>
+      <direccion>
+        <calle>rosario</calle>
+        <numero>8</numero>
+      </direccion>
+    </tema2.ejercicio7.Alumno>
+    <tema2.ejercicio7.Alumno>
+      <nombre>juan</nombre>
+      <apellidos>lopez</apellidos>
+      <anoNacimiento>1991</anoNacimiento>
+      <direccion>
+        <calle>miranda</calle>
+        <numero>7</numero>
+      </direccion>
+    </tema2.ejercicio7.Alumno>
+  </alumnos>
+</tema2.ejercicio7.Aula>
