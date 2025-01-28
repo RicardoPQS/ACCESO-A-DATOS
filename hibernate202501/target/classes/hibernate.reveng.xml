@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-name="continents" match-catalog="adat5"></table-filter>
+	<table-filter match-name="languages" match-catalog="adat5"></table-filter>
+	<table-filter match-name="region_areas" match-catalog="adat5"></table-filter>
+	<table-filter match-name="regions" match-catalog="adat5"></table-filter>
+</hibernate-reverse-engineering>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 26 ene 2025, 12:58:29 by Hibernate Tools 6.5.1.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="adat5" name="database.Languages" optimistic-lock="none" table="languages">
+        <id name="languageId" type="java.lang.Integer">
+            <column name="language_id"/>
+            <generator class="identity"/>
+        </id>
+        <property name="language" type="string">
+            <column length="50" name="language" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

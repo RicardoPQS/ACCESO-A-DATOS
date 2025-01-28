@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 26 ene 2025, 12:58:29 by Hibernate Tools 6.5.1.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="adat5" name="database.Continents" optimistic-lock="none" table="continents">
+        <id name="continentId" type="java.lang.Integer">
+            <column name="continent_id"/>
+            <generator class="identity"/>
+        </id>
+        <property name="name" type="string">
+            <column length="255" name="name" not-null="true"/>
+        </property>
+        <set fetch="select" inverse="true" lazy="true" name="regionses" table="regions">
+            <key>
+                <column name="continent_id" not-null="true"/>
+            </key>
+            <one-to-many class="database.Regions"/>
+        </set>
+    </class>
+</hibernate-mapping>
